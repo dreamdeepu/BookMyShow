@@ -18,6 +18,14 @@ public class Board {
         }
     }
 
+    public List<List<Cell>> getMatrix() {
+        return matrix;
+    }
+
+    public void setMatrix(List<List<Cell>> matrix) {
+        this.matrix = matrix;
+    }
+
     public void displayBoard(){
         for(int i=0;i<dimension;i++){
             List<Cell> cells = matrix.get(i);
