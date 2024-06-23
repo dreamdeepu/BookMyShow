@@ -23,7 +23,7 @@ public class Game {
         this.numberOfSymbols = players.size();
     }
 
-    public Builder builder(){
+    public static Builder builder(){
         return new Builder();
     }
 
